@@ -1,0 +1,51 @@
+/* Custom styles for the application */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h5 {
+  color: #343a40;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.table th, .table td {
+  padding: 1rem;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.table td {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .table th, .table td {
+    font-size: 0.9rem;
+  }
+}
+.scrollable {
+  max-height: 400px; /* Adjust based on content */
+  overflow-y: auto;
+  border: 1px solid #ddd; /* Optional: add border for clear boundaries */
+  padding: 10px; /* Optional: add padding inside the scrollable area */
+}
+
